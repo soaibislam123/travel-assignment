@@ -1,6 +1,16 @@
 /* for tablet resposive */
 
+@media screen and (min-width: 601px) and (max-width : 992px) {
+    /* menu section */
+    .menu-bar{
+        display: none;
+    }
 
+    .bar-icon{
+        display: block;
+    }
+
+}
 
 
 
@@ -24,16 +34,26 @@
 }
 
 
+/* banner section */
 
-@media screen and (min-width: 601px) and (max-width : 992px) {
-    
-    .menu-bar{
-        display: none;
-    }
-
-    .bar-icon{
-        display: block;
-    }
-
+.banner-heading{
+    padding: 0px 20px;
 }
+/* 
+.banner-form{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 20px 20px;
+    padding: 20px 20px;
+    gap: 20px;
+} */
+
+
+
+
+
+
+
+
+
 

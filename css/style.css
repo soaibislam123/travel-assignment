@@ -24,7 +24,7 @@
 }
 
 
-/* header section */
+/* nav section */
 
 .nav-bar{
     display: flex;
@@ -39,10 +39,6 @@
     gap: 20px;
 }
 
-/* .menu-bar{
-    display: none;
-} */
-
 .menu-bar a{
         color: #424247;
         text-decoration: none;
@@ -53,6 +49,70 @@
 .bar-icon{
     font-size: 40px;  
     display: none;
+   
+}
+
+.bar-icon a{
+    color: black;
+}
+
+/* bannner section */
+
+.banner{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) , url('/images/Group\ 13\ \(1\)\ \(1\).png');
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+
+.banner-heading h2, p{
+    color: #FFF;
+    margin-bottom: 20px;
+    
+}
+
+.banner-form{
+    padding: 25px 0px;
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+   
+}
+
+.form-field{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    max-width: 100%;
+}
+
+.search{
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.search a, #search-btn{
+    font-weight: 700;
+    color: #FFF;
+}
+
+.form-field h5 ,a{
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
