@@ -1,0 +1,39 @@
+/* for tablet resposive */
+
+
+
+
+
+
+
+
+
+
+
+ /* for mobile responsive */
+@media  screen  and (max-width : 600px) {
+
+    .menu-bar{
+        display: none;
+    }
+
+    .bar-icon{
+        display: block;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width : 992px) {
+    
+    .menu-bar{
+        display: none;
+    }
+
+    .bar-icon{
+        display: block;
+    }
+
+}
+
