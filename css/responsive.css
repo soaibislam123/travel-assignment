@@ -34,6 +34,8 @@
 
     /* banner section */
 
+   
+
     .banner-heading{
         padding: 0px 20px;
     }
@@ -81,13 +83,19 @@
             max-width: 100%;
         }
 
-        /* .hotel-cart-title{
-            width: 100%;
-        } */
+       
 
         .discount-cart-overflow{
             margin-left: 0;
             width: 87%;
+        }
+
+        /* statistics part */
+
+        .statistics-info{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 30px;
         }
 
         /* sign up section */
