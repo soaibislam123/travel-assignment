@@ -34,6 +34,11 @@
 
     /* banner section */
 
+    .banner{
+     width: 100%;        
+       
+    }
+
    
 
     .banner-heading{
@@ -46,6 +51,12 @@
         margin: 20px 20px;
         padding: 20px 20px;
         gap: 20px;
+    }
+    
+    .search{
+        display: flex;
+        justify-content: space-evenly;
+        
     }
 
      /* tour popularity part */
