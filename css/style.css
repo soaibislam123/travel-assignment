@@ -21,6 +21,7 @@
 .container{
     /* padding: 20px 0px; */
     margin: 0px 50px;
+    max-width: 100%;
 }
 
 .destination-row{
@@ -37,7 +38,7 @@
     padding: 20px;
 }
 
-.nav-intro{
+.nav-intro, .footer-intro{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -188,14 +189,20 @@
         margin-top: 50px;
         display: flex;
         gap: 30px;
+        width: 100%;
     }
 
     .hotel-cart , .discount-cart{
+        max-width: 100%;
         border-radius: 16px;
         border: 1px solid rgba(251, 181, 99, 0.20);
         background: rgba(251, 181, 99, 0.05);
         padding: 30px 30px;
         
+    }
+
+    #cart-icon{
+       font-size: 50px;
     }
 
     .service-cart{
@@ -214,6 +221,109 @@
         width: 573px;
         margin-top: 50px;
         margin-left: 200px;
+    }
+
+
+    /* sign up field style */
+    .sign-up{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .signup-field{
+    padding: 40px 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    }
+
+    .signup-field h2{
+        margin-bottom: 20px;
+
+    }
+
+    .signup-field input, .signup-field button{
+        display: block;
+        margin-top: 30px;
+        width: 80%;
+        padding: 10px 10px;
+        border-radius: 8px;
+        border: 2px solid whitesmoke;
+    }
+
+    #sign-up-button{
+        width: 200px;
+    }
+
+    .off-img{
+        
+        position: relative;
+    }
+
+   
+
+    .signup-coupon{
+        position: absolute;
+        top: 295px;
+        left: 420px;
+        transform: rotate(-20deg);
+       
+       
+    }
+
+    .signup-coupon{
+        background-color: #FF5400;
+        color: #FFF;
+        width: 200px;
+        padding: 10px 20px;
+        border-radius: 10px;
+       
+    }
+    .signup-coupon p{
+        text-align: center;
+        margin: 10px 0px;
+
+    }
+
+    /* footer section */
+
+    footer{
+        background: rgba(19, 19, 24, 0.05);
+        height: 500px;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+        padding: 50px 20px;
+    }
+
+    .footer-tag{
+        width: 300px;
+        margin: auto;
+        
+
+    }
+
+    .footer-description{
+        width: 600px;
+        margin: auto;
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-icon a{
+       margin-right: 20px;
+       color: #131318;
+    }
+
+    hr{
+        margin: 50px 40px;
+
     }
 
 

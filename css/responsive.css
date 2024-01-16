@@ -31,49 +31,45 @@
     .bar-icon{
         display: block;
     }
+
+    /* banner section */
+
+    .banner-heading{
+        padding: 0px 20px;
+    }
     
-}
+    .banner-form{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 20px 20px;
+        padding: 20px 20px;
+        gap: 20px;
+    }
+
+     /* tour popularity part */
+
+    .tour-popularity{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 
 
-                /* banner section */
+    /* destination part */
 
-.banner-heading{
-    padding: 0px 20px;
-}
-/* 
-.banner-form{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    margin: 20px 20px;
-    padding: 20px 20px;
-    gap: 20px;
-} */
-
-
-            /* tour popularity part */
-
-/* 
-.tour-popularity{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-} */
-
-        /* destination part */
-
-        /* .row{
+        .row{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
         }
 
-        .row-content img, .destination-title ,
+        .row-content img, .destination-title , .choose-title
         {
             width: 100%;
-        } */
+        }
 
 
         /* discount part */
 
-        /* .choose-info{
+        .choose-info{
             display: grid;
             grid-template-columns: repeat(1,1fr);
             max-width: 100%;
@@ -81,9 +77,68 @@
             
         }
 
-        .hotel-cart-title{
+        .hotel-cart, .service-cart{
+            max-width: 100%;
+        }
+
+        /* .hotel-cart-title{
             width: 100%;
         } */
+
+        .discount-cart-overflow{
+            margin-left: 0;
+            width: 87%;
+        }
+
+        /* sign up section */
+
+        .sign-up{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+            max-width: 100%;
+        }
+
+       .signup-field{
+        max-width: 100%;
+       }
+
+       .off-img img{
+        width: 100%;
+       }
+
+       .signup-coupon{
+        top: 170px;
+        left: 220px;
+       }
+
+       
+       /* foooter part */
+       footer{
+        max-width: 100%;
+       }
+       
+
+       .footer-tex, .footer-description{
+        max-width: 100%;
+       }
+
+       
+    
+}
+
+
+                
+
+
+
+
+           
+
+
+
+
+        
 
 
 
